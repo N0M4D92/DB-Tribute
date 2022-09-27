@@ -2,7 +2,8 @@
  body {
     text-align: center;
     font-family: sans-serif;
-   
+    background-color:ivory;
+    padding: 20px;
 }
 img {
     margin-top: 10px;
@@ -12,9 +13,14 @@ img {
     /* percentage instead of pixels for scalability */
     max-width: 50%;
     height: auto;
+    padding-bottom: 5px;
 }
 header {
-    background-color: rgba(37, 57, 109, .10);
+    background-color: rgba(62, 82, 133, 0.1);
     padding-bottom: 40px;
     padding-top: 20px;
+    border-radius: 10px;
+}
+figcaption {
+    font-style: italic;
 }
