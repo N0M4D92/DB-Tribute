@@ -2,25 +2,39 @@
  body {
     text-align: center;
     font-family: sans-serif;
-    background-color:ivory;
+    background-color:seashell;
     padding: 20px;
 }
 img {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 8px;
+    border-radius: 2px;
     /* percentage instead of pixels for scalability */
     max-width: 50%;
     height: auto;
-    padding-bottom: 5px;
+    border: 0.2px ridge black;
 }
 header {
-    background-color: rgba(62, 82, 133, 0.1);
-    padding-bottom: 10px;
-    padding-top: 20px;
-    border-radius: 10px;
+    
+    padding-bottom: 14px;
+    padding-top: 10px;
+    border-radius: 2px;
+    background-color: whitesmoke;
 }
 figcaption {
     font-style: italic;
+}
+
+ul {
+    list-style: none;
+
+
+}
+.timeline {
+    
+    background-color: whitesmoke;
+    /* to connect background color over body color */
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
