@@ -51,3 +51,7 @@ li {
     padding-bottom: 10px;
 }
 
+figure {
+    text-align: left;
+    max-width: 500px;
+}
