@@ -1,7 +1,6 @@
 
  body {
     text-align: center;
-    font-family: sans-serif;
     background-color:rgba(250, 250, 250, 0.897);
     padding: 20px;
     margin-left: 15px;
@@ -10,6 +9,10 @@
  h1, h3{
     color:rgb(60, 125, 185);
     font-weight: bold;
+ }
+
+ h3 {
+    font-size: 24px;
  }
 
  #wiki {
@@ -32,6 +35,11 @@ header {
     border-radius: 2px;
    
 }
+
+#descr {
+    font-size: 22px;
+}
+
 figcaption, blockquote {
     font-style: italic;
 }
@@ -42,6 +50,7 @@ ul {
     text-align: left;
     margin-bottom: 2em;
     max-width: 800px;
+    font-size: 24px;
 }
 
 li {
@@ -61,6 +70,7 @@ figure {
     margin: 0 auto;
     max-width: 650px;
     padding-bottom: 10px;
+    font-size: 20px;
    
 }
 figcaption {
