@@ -9,6 +9,7 @@
  h1, h3{
     color:rgb(60, 125, 185);
     font-weight: bold;
+    text-shadow: 2px 2px 2px #aaa;
  }
 
  h3 {
