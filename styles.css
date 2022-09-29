@@ -2,16 +2,22 @@
  body {
     text-align: center;
     font-family: sans-serif;
-    background-color:seashell;
+    background-color:rgba(250, 250, 250, 0.897);
     padding: 20px;
-}
+    margin-left: 15px;
+    margin-right: 15px;
+ }
+ h1, h3{
+    color:rgb(60, 125, 185);
+    font-weight: bold;
+ }
 img {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 2px;
     /* percentage instead of pixels for scalability */
-    max-width: 50%;
+    max-width: 45%;
     height: auto;
     border: 0.2px ridge black;
 }
@@ -20,20 +26,23 @@ header {
     padding-bottom: 14px;
     padding-top: 10px;
     border-radius: 2px;
-    background-color: whitesmoke;
+    background-color: ghostwhite;
 }
-figcaption {
+figcaption, blockquote {
     font-style: italic;
 }
 
 ul {
     list-style: none;
+    display: inline-block;
+    text-align: left;
+    
 
 
 }
 .timeline {
     
-    background-color: whitesmoke;
+    background-color: ghostwhite;
     /* to connect background color over body color */
     padding-top: 10px;
     padding-bottom: 10px;
