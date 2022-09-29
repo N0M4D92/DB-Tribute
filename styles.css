@@ -36,10 +36,13 @@ ul {
     list-style: none;
     display: inline-block;
     text-align: left;
-    
-
-
+    margin-bottom: 2em;
 }
+
+li {
+    margin-bottom: 25px;
+}
+
 .timeline {
     
     background-color: ghostwhite;
@@ -47,3 +50,4 @@ ul {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
