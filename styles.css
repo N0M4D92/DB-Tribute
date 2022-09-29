@@ -11,6 +11,9 @@
     color:rgb(60, 125, 185);
     font-weight: bold;
  }
+ h3:last-child {
+    color: black;
+ }
 img {
     margin-top: 10px;
     margin-left: auto;
@@ -37,6 +40,7 @@ ul {
     display: inline-block;
     text-align: left;
     margin-bottom: 2em;
+    max-width: 800px;
 }
 
 li {
@@ -53,5 +57,10 @@ li {
 
 figure {
     text-align: left;
-    max-width: 500px;
+    margin: 0 auto;
+    max-width: 650px;
+   
+}
+figcaption {
+    text-align: center;
 }
