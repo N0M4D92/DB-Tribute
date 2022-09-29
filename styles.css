@@ -11,7 +11,8 @@
     color:rgb(60, 125, 185);
     font-weight: bold;
  }
- h3:last-child {
+
+ #wiki {
     color: black;
  }
 img {
@@ -29,7 +30,7 @@ header {
     padding-bottom: 14px;
     padding-top: 10px;
     border-radius: 2px;
-    background-color: ghostwhite;
+   
 }
 figcaption, blockquote {
     font-style: italic;
@@ -59,6 +60,7 @@ figure {
     text-align: left;
     margin: 0 auto;
     max-width: 650px;
+    padding-bottom: 10px;
    
 }
 figcaption {
